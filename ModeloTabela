@@ -1,0 +1,49 @@
+% Declarar os Pacotes
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{longtable}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cabeçalho ⬇️ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Tabela01}
+\begin{longtable}{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\centering \textbf{Título 01} & \centering  \textbf{Título 02} & \centering  \textbf{Título 03}
+\endfirsthead 
+\hline
+%%%%%%%%%%%%%%%%%%% ⬇️ Divisão %%%%%%%%%%%%%%%%%%%
+\multicolumn{3}{|c|}{\textbf{Subtítulo 01}} 
+\\ \hline
+%%%%%%%%%%%%%%%%%%% ✏️ Linha 
+11 
+& 
+12 
+& 
+13 
+\\\hline
+%%%%%%%%%%%%%%%%%%% ✏️ Linha 
+21 
+& 
+22 
+& 
+23 
+\\\hline
+%%%%%%%%%%%%%%%%%%% ⬇️ Divisão %%%%%%%%%%%%%%%%%%%
+\multicolumn{3}{|c|}{\textbf{Subtítulo 02}} 
+\\ \hline
+%%%%%%%%%%%%%%%%%%% ✏️ Linha 
+11 
+& 
+12 
+& 
+13 
+\\\hline
+%%%%%%%%%%%%%%%%%%% ✏️ Linha 
+21 
+& 
+22 
+& 
+23 
+\\\hline
+\end{longtable}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIM  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
